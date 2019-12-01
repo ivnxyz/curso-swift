@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculadora" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dumb Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTg-5T-ffy">
+                                <rect key="frame" x="89.5" y="160" width="235" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fax-v3-fcU">
+                                <rect key="frame" x="30" y="246" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Valor 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BvO-UM-hej">
+                                <rect key="frame" x="30" y="310" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nm-lD-eeX">
+                                <rect key="frame" x="180" y="374" width="54" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Suma"/>
+                                <connections>
+                                    <action selector="sumar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzL-rs-OJe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXl-jf-RgR">
+                                <rect key="frame" x="180" y="430" width="54" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Resta"/>
+                                <connections>
+                                    <action selector="restar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kOo-Wu-O44"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNl-Jh-rrg">
+                                <rect key="frame" x="140.5" y="486" width="133" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Multiplicación"/>
+                                <connections>
+                                    <action selector="multiplicar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8W-TR-AmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrC-Z3-h75">
+                                <rect key="frame" x="169" y="542" width="76" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="División"/>
+                                <connections>
+                                    <action selector="dividir:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cN0-Vg-Ykg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bC-US-EcP">
+                                <rect key="frame" x="136.5" y="618" width="141" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BvO-UM-hej" firstAttribute="top" secondItem="fax-v3-fcU" secondAttribute="bottom" constant="30" id="0MD-Ca-cQB"/>
+                            <constraint firstItem="fXl-jf-RgR" firstAttribute="top" secondItem="6nm-lD-eeX" secondAttribute="bottom" constant="20" id="D9r-VQ-ZGA"/>
+                            <constraint firstItem="fXl-jf-RgR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Eza-5m-Kza"/>
+                            <constraint firstItem="jrC-Z3-h75" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GCZ-IN-Bra"/>
+                            <constraint firstItem="BvO-UM-hej" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="IuV-4I-1vw"/>
+                            <constraint firstItem="6nm-lD-eeX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JPh-NM-mEZ"/>
+                            <constraint firstItem="fNl-Jh-rrg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JTB-6v-4bN"/>
+                            <constraint firstItem="fNl-Jh-rrg" firstAttribute="top" secondItem="fXl-jf-RgR" secondAttribute="bottom" constant="20" id="K6n-4z-VKH"/>
+                            <constraint firstItem="jrC-Z3-h75" firstAttribute="top" secondItem="fNl-Jh-rrg" secondAttribute="bottom" constant="20" id="MU8-ah-6Sz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fax-v3-fcU" secondAttribute="trailing" constant="30" id="OBk-cC-rEw"/>
+                            <constraint firstItem="6nm-lD-eeX" firstAttribute="top" secondItem="BvO-UM-hej" secondAttribute="bottom" constant="30" id="Ob2-dO-JA4"/>
+                            <constraint firstItem="3bC-US-EcP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UKc-HH-xB8"/>
+                            <constraint firstItem="3bC-US-EcP" firstAttribute="top" secondItem="jrC-Z3-h75" secondAttribute="bottom" constant="40" id="arL-gt-PCS"/>
+                            <constraint firstItem="fax-v3-fcU" firstAttribute="top" secondItem="nTg-5T-ffy" secondAttribute="bottom" constant="50" id="hBV-gM-fdg"/>
+                            <constraint firstItem="nTg-5T-ffy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ndN-AZ-PzK"/>
+                            <constraint firstItem="fax-v3-fcU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="q4I-8t-2R9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BvO-UM-hej" secondAttribute="trailing" constant="30" id="xUU-pt-uid"/>
+                            <constraint firstItem="fXl-jf-RgR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zlE-0i-dXs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultadoLabel" destination="3bC-US-EcP" id="1pM-lx-OjE"/>
+                        <outlet property="valor1TextField" destination="fax-v3-fcU" id="hfq-WJ-20D"/>
+                        <outlet property="valor2TextField" destination="BvO-UM-hej" id="Uu0-Bq-BGG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="102"/>
+        </scene>
+    </scenes>
+</document>
