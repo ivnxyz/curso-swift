@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         imagePickerController = UIImagePickerController()
         imagePickerController?.delegate = self
         imagePickerController?.sourceType = .camera
+        imagePickerController?.allowsEditing = true
         
         // Mostrar el controlador
         present(imagePickerController!, animated: true, completion: nil)
