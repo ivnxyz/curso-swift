@@ -9,12 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var resultLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    // MARK: - Acciones
+    
+    @IBAction func analyzeButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func selectAnImageButtonPressed(_ sender: UIButton) {
+    }
+    
 
 }
 
