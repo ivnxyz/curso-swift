@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A633AE7823978A7A001C650E /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A633AE7723978A7A001C650E /* UIImage+PixelBuffer.swift */; };
 		A68E8CDE23973955002B282E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CDD23973955002B282E /* AppDelegate.swift */; };
 		A68E8CE023973955002B282E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CDF23973955002B282E /* SceneDelegate.swift */; };
 		A68E8CE223973955002B282E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CE123973955002B282E /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A633AE7723978A7A001C650E /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
 		A68E8CDA23973955002B282E /* MLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68E8CDD23973955002B282E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68E8CDF23973955002B282E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A68E8CE623973957002B282E /* Assets.xcassets */,
 				A68E8CE823973957002B282E /* LaunchScreen.storyboard */,
 				A68E8CEB23973957002B282E /* Info.plist */,
+				A633AE7723978A7A001C650E /* UIImage+PixelBuffer.swift */,
 			);
 			path = MLApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A633AE7823978A7A001C650E /* UIImage+PixelBuffer.swift in Sources */,
 				A68E8CE223973955002B282E /* ViewController.swift in Sources */,
 				A68E8CDE23973955002B282E /* AppDelegate.swift in Sources */,
 				A68E8CE023973955002B282E /* SceneDelegate.swift in Sources */,
