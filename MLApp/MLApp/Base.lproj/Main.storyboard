@@ -19,7 +19,7 @@
                                 <rect key="frame" x="20" y="64" width="374" height="541"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQg-7R-Y24">
-                                <rect key="frame" x="12" y="715" width="390" height="50"/>
+                                <rect key="frame" x="12" y="705" width="390" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="mSC-34-RF1"/>
@@ -39,13 +39,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHm-y2-fUI">
-                                <rect key="frame" x="12" y="625" width="390" height="50"/>
+                                <rect key="frame" x="12" y="635" width="390" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="v4V-t5-NaF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Seleccionar una imagen">
+                                <state key="normal" title="Tomar una foto">
                                     <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 </state>
                                 <connections>
@@ -62,13 +62,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PJ0-td-9eu" secondAttribute="trailing" constant="20" id="PNN-LV-j6I"/>
                             <constraint firstItem="PJ0-td-9eu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="R8y-ul-8ve"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DQg-7R-Y24" secondAttribute="trailing" constant="12" id="SCG-aY-Rki"/>
-                            <constraint firstItem="EHm-y2-fUI" firstAttribute="top" secondItem="PJ0-td-9eu" secondAttribute="bottom" constant="20" id="TOO-Ps-Nwb"/>
+                            <constraint firstItem="EHm-y2-fUI" firstAttribute="top" secondItem="PJ0-td-9eu" secondAttribute="bottom" constant="30" id="TOO-Ps-Nwb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="d4s-vi-LGP" secondAttribute="bottom" constant="50" id="Yfr-4z-DmG"/>
-                            <constraint firstItem="DQg-7R-Y24" firstAttribute="top" secondItem="EHm-y2-fUI" secondAttribute="bottom" constant="40" id="c0a-7k-F2p"/>
+                            <constraint firstItem="DQg-7R-Y24" firstAttribute="top" secondItem="EHm-y2-fUI" secondAttribute="bottom" constant="20" id="c0a-7k-F2p"/>
                             <constraint firstItem="d4s-vi-LGP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cRt-4i-dRy"/>
                             <constraint firstItem="DQg-7R-Y24" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="fJX-ZI-nD1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EHm-y2-fUI" secondAttribute="trailing" constant="12" id="flK-eH-y9m"/>
-                            <constraint firstItem="d4s-vi-LGP" firstAttribute="top" secondItem="DQg-7R-Y24" secondAttribute="bottom" constant="20" id="zOz-kr-L8A"/>
+                            <constraint firstItem="d4s-vi-LGP" firstAttribute="top" secondItem="DQg-7R-Y24" secondAttribute="bottom" constant="30" id="zOz-kr-L8A"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
