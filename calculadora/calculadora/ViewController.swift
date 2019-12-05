@@ -24,22 +24,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sumar(_ sender: Any) {
-        let valor1 = Int(valor1TextField.text!)!
-        let valor2 = Int(valor2TextField.text!)!
+        let valor1 = Float(valor1TextField.text!)!
+        let valor2 = Float(valor2TextField.text!)!
         
         resultadoLabel.text = "\(valor1 + valor2)"
     }
     
     @IBAction func restar(_ sender: Any) {
-        let valor1 = Int(valor1TextField.text!)!
-        let valor2 = Int(valor2TextField.text!)!
+        let valor1 = Float(valor1TextField.text!)!
+        let valor2 = Float(valor2TextField.text!)!
         
         resultadoLabel.text = "\(valor1 - valor2)"
     }
     
     @IBAction func multiplicar(_ sender: Any) {
-        let valor1 = Int(valor1TextField.text!)!
-        let valor2 = Int(valor2TextField.text!)!
+        let valor1 = Float(valor1TextField.text!)!
+        let valor2 = Float(valor2TextField.text!)!
         
         resultadoLabel.text = "\(valor1 * valor2)"
     }
