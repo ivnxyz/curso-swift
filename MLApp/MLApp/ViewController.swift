@@ -27,6 +27,17 @@ class ViewController: UIViewController {
     // MARK: - Acciones
     
     @IBAction func analyzeButtonPressed(_ sender: UIButton) {
+        if let image = imageView.image {
+            do {
+                let classifier = Model()
+                let size = CGSize(width: 224, height: 224)
+                let result = try classifier.prediction(data: image.resize(to: size)!.pixelBuffer()!)
+                
+                resultLabel.text = result.classLabel
+            } catch (let error) {
+                print("Ocurrió un eror: \(error)")
+            }
+        }
     }
     
     @IBAction func selectAnImageButtonPressed(_ sender: UIButton) {
