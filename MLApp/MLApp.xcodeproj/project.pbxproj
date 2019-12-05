@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A633AE7823978A7A001C650E /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A633AE7723978A7A001C650E /* UIImage+PixelBuffer.swift */; };
-		A671D6412397A69800210568 /* Model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A671D6402397A69800210568 /* Model.mlmodel */; };
+		A682F26E23988FF300D6206E /* CatDog.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A682F26D23988FF300D6206E /* CatDog.mlmodel */; };
 		A68E8CDE23973955002B282E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CDD23973955002B282E /* AppDelegate.swift */; };
 		A68E8CE023973955002B282E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CDF23973955002B282E /* SceneDelegate.swift */; };
 		A68E8CE223973955002B282E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68E8CE123973955002B282E /* ViewController.swift */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		A633AE7723978A7A001C650E /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
-		A671D6402397A69800210568 /* Model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Model.mlmodel; sourceTree = "<group>"; };
+		A682F26D23988FF300D6206E /* CatDog.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CatDog.mlmodel; sourceTree = "<group>"; };
 		A68E8CDA23973955002B282E /* MLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68E8CDD23973955002B282E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A68E8CDF23973955002B282E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		A68E8CDC23973955002B282E /* MLApp */ = {
 			isa = PBXGroup;
 			children = (
-				A671D6402397A69800210568 /* Model.mlmodel */,
+				A682F26D23988FF300D6206E /* CatDog.mlmodel */,
 				A68E8CDD23973955002B282E /* AppDelegate.swift */,
 				A68E8CDF23973955002B282E /* SceneDelegate.swift */,
 				A68E8CE123973955002B282E /* ViewController.swift */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A633AE7823978A7A001C650E /* UIImage+PixelBuffer.swift in Sources */,
-				A671D6412397A69800210568 /* Model.mlmodel in Sources */,
+				A682F26E23988FF300D6206E /* CatDog.mlmodel in Sources */,
 				A68E8CE223973955002B282E /* ViewController.swift in Sources */,
 				A68E8CDE23973955002B282E /* AppDelegate.swift in Sources */,
 				A68E8CE023973955002B282E /* SceneDelegate.swift in Sources */,

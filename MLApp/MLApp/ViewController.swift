@@ -29,11 +29,15 @@ class ViewController: UIViewController {
     @IBAction func analyzeButtonPressed(_ sender: UIButton) {
         if let image = imageView.image {
             do {
-                let classifier = Model()
-                let size = CGSize(width: 224, height: 224)
-                let result = try classifier.prediction(data: image.resize(to: size)!.pixelBuffer()!)
+                let classifier = CatDog()
+                let size = CGSize(width: 150, height: 150)
+                let result = try classifier.prediction(image: image.resize(to: size)!.pixelBuffer()!)
                 
-                resultLabel.text = result.classLabel
+                if result.output[0] == 1 {
+                    resultLabel.text = "Perro"
+                } else {
+                    resultLabel.text = "Gato"
+                }
             } catch (let error) {
                 print("Ocurrió un eror: \(error)")
             }
@@ -44,7 +48,7 @@ class ViewController: UIViewController {
         // Crear un controlador para la cámara y configurarlo
         imagePickerController = UIImagePickerController()
         imagePickerController?.delegate = self
-        imagePickerController?.sourceType = .camera
+        imagePickerController?.sourceType = .photoLibrary
         imagePickerController?.allowsEditing = true
         
         // Mostrar el controlador

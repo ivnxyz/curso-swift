@@ -45,7 +45,7 @@
                                     <constraint firstAttribute="height" constant="50" id="v4V-t5-NaF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Tomar una foto">
+                                <state key="normal" title="Seleccionar una foto">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
